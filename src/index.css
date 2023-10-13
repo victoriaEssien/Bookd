@@ -166,3 +166,15 @@ body {
 .book-btn:hover {
   background-color: #008f8f;
 }
+
+/* About me section */
+
+.about-header {
+  margin-top: 12%;
+}
+
+/* Featured section */
+
+.featured-header {
+
+}
