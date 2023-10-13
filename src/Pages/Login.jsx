@@ -95,7 +95,7 @@ function Login({setToken}) {
         </Form.Group>
 
       <Form.Label className="label" htmlFor="pass">Password</Form.Label>
-        <InputGroup className="mb-4" size="lg">
+        <InputGroup className="pass-container mb-4" size="lg">
             <Form.Control id="pass" className="pass-input" type={passwordVisible ? "text" : "password"} name="password" size="lg" onChange={handleChange} required/>
             <InputGroup.Text>
               <FontAwesomeIcon className="password-icon" onClick={handlePasswordVisibility} icon={passwordVisible ? faEye : faEyeSlash} />

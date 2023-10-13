@@ -34,6 +34,12 @@ body {
   cursor: pointer;
 }
 
+.input:focus, .pass-input:focus {
+  box-shadow: none;
+  border: 3px solid hsl(180, 44%, 67%);
+  ;
+}
+
 .auth-btn {
   background-color: #007F7F;
   border: none;
@@ -98,4 +104,65 @@ body {
 
 .email-stress {
   font-weight: 600;
+}
+
+/* Dashboard */
+
+.main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.info-cards-grid {
+  margin-top: 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 40px;
+}
+
+.info-card {
+  padding: 5% 8%;
+  border: 1px solid hsl(0, 0%, 90%);
+  border-radius: 10px;
+}
+
+.user-details {
+  display: inline-flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.profile-photo {
+  height: 6em;
+  width: 6em;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.username {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.nickname {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #5da9a9;
+}
+
+.book-btn {
+  background-color: #007F7F;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 40px;
+  margin: 6% 0 0 0;
+  color: #fff;
+  font-weight: 500;
+}
+
+.book-btn:hover {
+  background-color: #008f8f;
 }
