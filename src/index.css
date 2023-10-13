@@ -2,3 +2,100 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+/* Auth forms */
+
+.auth-form-container {
+  border: none;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 5% auto;
+  width: 47%;
+  box-shadow: rgba(74, 112, 112, 0.15) 0px 48px 100px 0px;
+}
+
+.form-heading {
+  font-weight: 600;
+  color: #007F7F;
+  margin-bottom: 6%;
+}
+
+.label {
+  font-weight: 500;
+  color: #333;
+}
+
+.input {
+  font-size: 1rem;
+  padding: 14px 16px;
+}
+
+.pass-container {
+  cursor: pointer;
+}
+
+.auth-btn {
+  background-color: #007F7F;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 0;
+  margin: 6% 0 0 0;
+  color: #fff;
+  font-weight: 500;
+}
+
+.auth-btn:hover {
+  background-color: #008f8f;
+}
+
+.error {
+  color: #cc0000;
+}
+
+.helper-text {
+  margin-top: 5%;
+  text-align: center;
+  color: #006666;
+}
+
+.helper-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: hsl(180, 100%, 30%);
+}
+
+/* Main Navigation bar */
+
+.nav-bar{
+  padding: 20px 25px;
+  background: #fff;
+  box-shadow: rgba(45, 31, 122, 0.15) 0px 2px 40px 0px;
+}
+
+/* Email verification */
+
+.email-div {
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  padding: 40px 40px 60px;
+  margin: 5% auto 0;
+  width: 50%;
+  box-shadow: rgba(45, 31, 122, 0.15) 0px 48px 100px 0px;
+}
+
+.email-pic {
+  width: 40%;
+}
+
+.email-subheader {
+  font-size: 1rem;
+  margin: 2% auto 0;
+  width: 65%;
+  line-height: 1.6;
+  color: #3e506f;
+}
+
+.email-stress {
+  font-weight: 600;
+}

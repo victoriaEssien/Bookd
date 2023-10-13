@@ -31,7 +31,7 @@ function LandingPage() {
                 <Route path="/register" element={<SignUp />} />
                 <Route path="/verify-email" element={<VerifyEmail />} />
                 <Route path="/login" element={<Login setToken={setToken} />} />
-                {token?<Route path="/homepage" element={<Dashboard token={token}/>} />:""}
+                {token?<Route path="/dashboard" element={<Dashboard token={token}/>} />:""}
             </Routes>
         </div>
     </Router>
