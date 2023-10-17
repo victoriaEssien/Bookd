@@ -1,7 +1,7 @@
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import { useEffect, useState } from "react"
-import { HeroSection, SignUp, VerifyEmail, Login, Dashboard } from './index'
+import { HeroSection, SignUp, VerifyEmail, Login, Dashboard, BioForm } from './index'
 
 function LandingPage() {
 
@@ -32,6 +32,7 @@ function LandingPage() {
                 <Route path="/verify-email" element={<VerifyEmail />} />
                 <Route path="/login" element={<Login setToken={setToken} />} />
                 {token?<Route path="/dashboard" element={<Dashboard token={token}/>} />:""}
+                <Route path="/edit-bio" element={<BioForm />} />
             </Routes>
         </div>
     </Router>

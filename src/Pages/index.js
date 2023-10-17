@@ -4,6 +4,10 @@ import VerifyEmail from "./VerifyEmail";
 import Login from "./Login";
 import Dashboard from "./Dashboard";
 
+// Forms
+
+import BioForm from "./Forms/BioForm";
+
 export {
-    HeroSection, SignUp, VerifyEmail, Login, Dashboard
+    HeroSection, SignUp, VerifyEmail, Login, Dashboard, BioForm
 }

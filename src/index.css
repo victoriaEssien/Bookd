@@ -115,6 +115,7 @@ body {
 
 .info-cards-grid {
   margin-top: 8%;
+  margin-bottom: 8%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px 40px;
@@ -177,4 +178,16 @@ body {
 
 .featured-header {
 
+}
+
+/* Edit modal */
+
+.save-btn {
+  background-color: #007F7F;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 40px;
+  margin: 0 4% 6% 4%;
+  color: #fff;
+  font-weight: 500;
 }

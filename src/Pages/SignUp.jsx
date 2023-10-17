@@ -67,6 +67,8 @@ function SignUp() {
             data: {
               full_name: formData.fullName,
               user_name: formData.userName,
+              photo: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+              bio: "e.g I am a makeup artist with experience in...makeup",
               rating: 0
             }
           }
